@@ -69,8 +69,8 @@ redis_client = redis.StrictRedis(host='your-elastic-cache-endpoint', port=6379, 
 
 # Establish a connection to Aurora
 aurora_connection = pymysql.connect(host='your-aurora-endpoint',
-                                    user='your-username',
-                                    password='your-password',
+                                    user='xxxx',
+                                    password='xxxx',
                                     db='your-database',
                                     charset='utf8mb4',
                                     cursorclass=pymysql.cursors.DictCursor)
